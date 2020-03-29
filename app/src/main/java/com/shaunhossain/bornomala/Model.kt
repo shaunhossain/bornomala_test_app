@@ -1,11 +1,11 @@
 package com.shaunhossain.bornomala
 
 class Model {
-    var bornoImage: String = ""
-    var relatedImage: String= ""
+    var bornoImage: Int
+    var relatedImage: Int
     var description: String = ""
 
-    constructor(bornoImage: String, relatedImage: String, description: String) {
+    constructor(bornoImage: Int, relatedImage: Int, description: String) {
         this.bornoImage = bornoImage
         this.relatedImage = relatedImage
         this.description = description
