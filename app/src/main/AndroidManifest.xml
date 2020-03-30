@@ -11,15 +11,16 @@
         android:theme="@style/AppTheme">
         <activity android:name=".ViewBenjonbornoActivity"></activity>
         <activity android:name=".ViewSorbornoActivity" >
+        </activity>
+        <activity android:name=".SelectionTypeActivity">
+        </activity>
+        <activity android:name=".NumberActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SelectionTypeActivity">
-        </activity>
-        <activity android:name=".NumberActivity" />
         <activity android:name=".MainActivity" />
     </application>
 

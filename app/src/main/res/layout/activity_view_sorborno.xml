@@ -23,26 +23,28 @@
             android:overScrollMode="never" />
     </LinearLayout>
 
-    <com.google.android.material.button.MaterialButton
+    <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/button"
-        android:layout_width="88dp"
+        android:layout_width="90dp"
         android:layout_height="60dp"
         android:layout_marginBottom="16dp"
-        app:icon="@drawable/ic_arrow_back_black_24dp"
-        app:iconSize="40dp"
+        app:lottie_rawRes="@raw/swipe_left_arrows"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
         app:layout_constraintVertical_bias="1.0" />
 
-    <com.google.android.material.button.MaterialButton
+    <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/button2"
-        android:layout_width="88dp"
+        android:layout_width="90dp"
         android:layout_height="60dp"
         android:layout_marginBottom="16dp"
-        app:icon="@drawable/ic_arrow_forward_black_24dp"
-        app:iconSize="40dp"
+        app:lottie_rawRes="@raw/swipe_right_arrows"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
